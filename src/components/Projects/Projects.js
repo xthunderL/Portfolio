@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Chhattisgarh Forest Department Web App"
+              description="The software system boasts a range of critical features to streamline organizational processes. Firstly, it employs an Approval Flow feature, mandating that submitted data undergoes scrutiny by the highest echelons of the organizational hierarchy before being deemed valid and stored in the database. Following approval, the data is transformed into a structured row format, facilitating the generation of comprehensive business analysis reports. The system also leverages Hierarchy-Based Login, ensuring that user authentication is in line with the organizational structure. This approach employs JWT tokens to filter content, thereby promoting transparency by granting users access only to information pertinent to their department. Furthermore, the system excels in Error Handling, adeptly managing and communicating various exceptional errors to users without disrupting the flow of operations. Finally, it's worth noting that Code Refactoring and optimization are undertaken, particularly for the resource-intensive process of generating department-specific reports, to ensure seamless and efficient system performance."
+              demoLink="https://drive.google.com/file/d/1ZhWZiNoE9CvF5tDo5kthJzwto5bKf7Tk/view?usp=sharing"
             />
           </Col>
 
@@ -36,10 +35,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="vLiveEvent Service"
+              description="Implemented a microservices architecture software as vLiveEvents Service
+              ,this service —manages the 1:1 Session and webinars in between Student and
+              instructor. Zoom and Calendly are —integrated in this service."
             />
           </Col>
 
@@ -47,14 +46,15 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="OTT SAAS Platform-Mobiotics"
+              description="The Product provides the service to the client with content to host a OTT platform but doesn’t have IT team. Web APP ,Android APP,smart TV app will be provided to handle the content hosting. To manage the business CRM and to manage CMS is provided.
+              Since it’s micro-service system ,all the services are  powered by independent system which are highly scalable. SMS is one of the independent system which manage subscriber subscription for the respective provider.
+                        Teach stack: Vue js, NodeJS ,AWS lambda."
+              demoLink="https://noorplay.com/"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,9 +63,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,9 +74,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

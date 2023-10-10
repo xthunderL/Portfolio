@@ -9,7 +9,8 @@ function Type() {
           "Software Developer",
           "Freelancer",
           "MERN Stack Developer",
-          "Open Source Contributor",
+          "Full Stack Developer",
+          "Microservices and AWS lambda specilization"
         ],
         autoStart: true,
         loop: true,
